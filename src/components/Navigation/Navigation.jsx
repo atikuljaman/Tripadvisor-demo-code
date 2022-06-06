@@ -32,8 +32,7 @@ const Navigation = () => {
                   aria-current="page"
                   to="/"
                 >
-                  <i className="fa-solid fa-pencil me-2"></i>
-                  Reviews
+                  Halal Hotels
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -42,8 +41,7 @@ const Navigation = () => {
                   aria-current="page"
                   to="/"
                 >
-                  <i className="fa-regular fa-heart me-2"></i>
-                  Trips
+                  Halal Restaurants
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -52,8 +50,21 @@ const Navigation = () => {
                   aria-current="page"
                   to="/"
                 >
-                  <i className="fa-regular fa-bell me-2"></i>
-                  Alerts
+                  Halal Tours
+                </NavLink>
+              </li>
+              <li className="nav-item me-5">
+                <NavLink
+                  className="nav-link text-decoration-none"
+                  aria-current="page"
+                  to="/"
+                >
+                  Halal Insurance
+                </NavLink>
+              </li>
+              <li className="nav-item review-link ms-5 me-3">
+                <NavLink className="nav-link text-decoration-none" to="/">
+                  Write Review
                 </NavLink>
               </li>
               <li className="nav-item sign-in-link">
